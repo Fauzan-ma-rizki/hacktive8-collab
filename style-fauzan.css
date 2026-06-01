@@ -45,3 +45,38 @@ body {
     gap: 10px;
     padding: 40px 20px;
 }
+
+/* --- SECTION TEAM --- */
+.team-container {
+    display: flex;
+    flex-direction: column;
+    /* Menyusun baris 1 dan baris 2 secara vertikal ke bawah */
+    gap: 20px;
+    /* Jarak antara baris atas dan baris bawah */
+    margin-top: 20px;
+    width: 100%;
+}
+
+/* Mengatur setiap baris (row) */
+.team-row {
+    display: flex;
+    justify-content: center;
+    /* KUNCI: Mengetengahkan isi dari baris tersebut */
+    gap: 20px;
+    /* Jarak antar kartu orang di dalam satu baris */
+    width: 100%;
+}
+
+.team-member {
+    padding: 40px;
+}
+
+/* Mengatur gaya foto anggota tim agar bulat rapi */
+.team-member img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    /* Membuat lingkaran sempurna */
+    object-fit: cover;
+    margin-bottom: 15px;
+}
