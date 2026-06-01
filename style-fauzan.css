@@ -1,6 +1,47 @@
 body {
     background-color: #f0f0f0;
     font-family: 'Poppins', sans-serif;
-    padding: 0;
+    text-align: left;
     margin: 0;
+    padding: 0;
+}
+
+.section-services {
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* Membuat 2 kolom sama rata */
+    gap: 20px;
+    /* Jarak antar box */
+}
+
+.service-box {
+    background-color: #cecece;
+    /* Warna dasar box putih */
+    padding: 25px;
+    border-radius: 8px;
+}
+
+.service-box h3 {
+    text-align: center;
+    color: #000000;
+}
+
+.service-box p {
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 0;
+}
+
+.orangtua {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    gap: 10px;
+    padding: 40px 20px;
 }
